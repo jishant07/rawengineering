@@ -104,6 +104,7 @@ if(denomcheck(avail,total)):
     while paidWith < billamount:    
         if(paidWith < billamount):
             print("ERROR : Not sufficient to pay the bill")
+        paidWith = int(input("Enter the amount paid by the customer: "))
 
     print(" ")
     print("Note : Enter the denomination received from customer")
